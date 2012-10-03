@@ -22,4 +22,6 @@ gem 'jquery-rails'
 gem "wicked_pdf"
 gem "wkhtmltopdf-heroku"
 
+gem 'compass-rails','~> 1.0.0.rc.2'
+gem 'fancy-buttons'
 gem 'haml'
