@@ -1,6 +1,6 @@
 #pages_index
   .field
-    = form_tag print_pages_path() do
+    = form_tag print_pages_path(format: :pdf) do
       = text_area_tag :message
       = submit_tag "Print"
 
